@@ -1,7 +1,7 @@
 // Controle de Motor de Passo com Modulo driver A4988
-//
 // Modulo A4988 / Motor de Passo Bipolar / Arduino Nano / IDE 1.8.5
 // Gustavo Murta 29/mar/2018
+// http://blog.eletrogate.com/driver-a4988-motor-de-passo-usando-o-arduino/
 
 // Definições das Portas Digitais do Arduino
 
