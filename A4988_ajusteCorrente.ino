@@ -2,6 +2,7 @@
 // Sketch para ajuste de corrente do Modulo A4988 - ajuste POT
 // Modulo A4988 / Motor de Passo Bipolar / Arduino Nano / IDE 1.8.5
 // Não ligue a fonte de 12V ainda ! 
+// http://blog.eletrogate.com/driver-a4988-motor-de-passo-usando-o-arduino/
 // Gustavo Murta 29/mar/2018
 
 // Definições das Portas Digitais do Arduino
