@@ -1,7 +1,7 @@
 // Controle de Motor de Passo com Modulo driver A4988
 // Sketch para ajuste de corrente do Modulo A4988 - ajuste POT
 // Modulo A4988 / Motor de Passo Bipolar / Arduino Nano / IDE 1.8.5
-//
+// Não ligue a fonte de 12V ainda ! 
 // Gustavo Murta 29/mar/2018
 
 // Definições das Portas Digitais do Arduino
@@ -14,15 +14,6 @@ int MS2 = 5;              // Porta digital D05 - MS2 do A4988
 int MS3 = 6;              // Porta digital D06 - MS3 do A4988
 int DIR = 3;              // Porta digital D03 - direção (direction) do A4988
 int STP = 2;              // Porta digital D02 - passo(step) do A4988
-
-int MeioPeriodo = 1480;    // MeioPeriodo no pulso em microsegundos  500 Hz = 988
-float PPS = 200;          // Pulsos por segundo
-boolean sentido = true;   // Variavel de sentido
-int PPR = 200;            // Número de passos por volta
-int Pulsos;               // Pulsos para o driver do motor
-int Voltas;               // voltas do motor
-float RPM;                // Rotacoes por minuto
-
 
 void setup()
 {
